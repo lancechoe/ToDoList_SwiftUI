@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7E147D082DA16D3B00039C43 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7E147D072DA16D3B00039C43 /* FirebaseAuth */; };
 		7E147D0A2DA16D3B00039C43 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 7E147D092DA16D3B00039C43 /* FirebaseFirestore */; };
+		7E147D3A2DA256E600039C43 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 7E147D392DA256E600039C43 /* FirebaseFirestoreCombine-Community */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E147D3A2DA256E600039C43 /* FirebaseFirestoreCombine-Community in Frameworks */,
 				7E147D082DA16D3B00039C43 /* FirebaseAuth in Frameworks */,
 				7E147D0A2DA16D3B00039C43 /* FirebaseFirestore in Frameworks */,
 			);
@@ -74,6 +76,7 @@
 			packageProductDependencies = (
 				7E147D072DA16D3B00039C43 /* FirebaseAuth */,
 				7E147D092DA16D3B00039C43 /* FirebaseFirestore */,
+				7E147D392DA256E600039C43 /* FirebaseFirestoreCombine-Community */,
 			);
 			productName = ToDoList;
 			productReference = 7E147CF62DA16CDF00039C43 /* ToDoList.app */;
@@ -354,6 +357,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 7E147D062DA16D3B00039C43 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestore;
+		};
+		7E147D392DA256E600039C43 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E147D062DA16D3B00039C43 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
